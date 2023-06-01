@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+html {
+
+    background-color: #F6FA70;
+}
+.App {
+    background-image: -webkit-linear-gradient(65deg,#0079FF 50%, #F6FA70 50%);
+    min-height: 1000px;
+    font-family: 'Kanit', sans-serif;
+}
+
+header>h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+
+}
+header {
+    background-color: #FF0060;
+    text-align: center;
+
+}
+
+.todolist {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: lighter;
+    overflow: hidden;
+    border-radius: 30px;
+    padding-bottom: 1px;
+    max-width: 390px;
+    margin: 10px auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo {
+    font-weight: bold;
+    color: #111111;
+    padding: 30px 30px;
+    min-height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+}
+.todo-text {
+    font-size: 28px;
+}
+
+.todo:last-child {
+    border-bottom: 0;
+}
+
+.todo-delete {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(128, 128, 128, 0.338);
+}
+.todo-delete:hover {
+    cursor: pointer;
+}
+
+
+
+span {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.form {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form>input {
+    font-size: 27px;
+    width: 70%;
+    border: none;
+    border-bottom: solid 1px #00DFA2;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+::placeholder {
+    font-size: 19px;
+    color: rgb(174, 174, 174);
+    opacity: 1;
+}
+
+button.submit {
+    min-height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #00DFA2;
+    color: #fff;
+    font-size: 40px;
+    border-width: 0;
+    cursor: pointer;
+}

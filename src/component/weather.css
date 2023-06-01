@@ -1,0 +1,53 @@
+.main {
+
+    border:3px solid #FF0060;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 15px;
+    max-width: 390px;
+    margin: 10px auto 0;
+    background-color: #Ffff;   
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    margin-bottom: 0;
+    font-family: Kanit;
+    font-size: 28px;
+    font-weight: bolder;
+    color:#00DFA2;
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex .day {
+    padding-top: 0;
+    font-size: 23px;
+    font-weight: lighter;
+    color: #696969;
+}
+.flex-md {
+    justify-content: center;
+}
+.flex-md .temp {
+    text-align: center;
+}
+
+.flex-icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 70px;
+}
+
+.icon {
+    top: -55px;
+    position: absolute;
+    width: 160px;
+}
